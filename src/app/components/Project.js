@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareArrowUpRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Project(title, desc, link) {
     <div className="border-2 border-zinc-700 p-8 my-8 relative">
