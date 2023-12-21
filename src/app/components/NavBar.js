@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function NavBar() {
     return (
         <nav className="flex justify-between items-center p-5 border-b-2 border-b-zinc-700">
-            <ul className="w-1/2 flex gap-3">
+            <ul className="w-1/4 flex gap-3">
                 <li>
                     <a href="https://www.github.com/MuthoniMN">
                         <FontAwesomeIcon icon={faGithub} className="w-6 mx-auto hover:text-fuchsia-600 transition-all" />
