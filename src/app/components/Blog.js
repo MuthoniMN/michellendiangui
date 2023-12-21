@@ -36,7 +36,6 @@ export default function Blogs() {
     }
     `
     gql(myLatestArticles).then(result => {
-        console.log(result)
         const articles = result.data.user.publication.posts;
         setPosts(articles);
     })

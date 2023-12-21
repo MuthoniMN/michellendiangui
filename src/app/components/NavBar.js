@@ -39,7 +39,7 @@ export default function NavBar() {
                     <Link href={"/#about"}>About</Link>
                 </li>
                 <li>
-                    <Link href={"/#contact"} className="bg-fuchsia-600 px-6 py-2 text-white">Get In Touch</Link>
+                    <Link href={"/contact"} className="bg-fuchsia-600 px-6 py-2 text-white hover:bg-fuchsia-800">Get In Touch</Link>
                 </li>
             </ul>
 

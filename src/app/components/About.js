@@ -18,7 +18,8 @@ export default function About() {
                 />
                 <section>
                     <p>I am a full-stack JavaScript software engineer and technical writer.</p>
-                    <Link href="/#contact" className="text-fuchsia-600 my-2 w-fit block underline transitonal-all hover:bg-fuchsia-600 hover:text-white">Contact Me</Link>
+                    <Link href="/contact" className="text-fuchsia-600 my-2 w-fit block underline transitonal-all hover:bg-fuchsia-600 hover:text-white">Contact Me</Link>
+                    <Link href="/projects" className="text-fuchsia-600 my-2 w-fit block underline transitonal-all hover:bg-fuchsia-600 hover:text-white">Check Out My Projects</Link>
                 </section>
             </section>
 
