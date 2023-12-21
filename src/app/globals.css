@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRao-kbozYnFm1O_NOa1GEX3gWrEARnagb0qnf51WHr1UWH7j5ZYfCiTOscHcjyDf9uUR4&usqp=CAU);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

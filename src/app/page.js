@@ -3,9 +3,7 @@ import About from './components/About'
 
 export default function Home() {
   return (
-    <main>
-      <h1 className='text-3xl text-center font-bold'>My Portfolio</h1>
-
+    <main className='flex'>
       <About />
     </main>
   )
