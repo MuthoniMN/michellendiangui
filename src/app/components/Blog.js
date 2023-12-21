@@ -43,7 +43,7 @@ export default function Blogs() {
             console.error(err)
         })
     return (
-        <section id="about" className="px-8  py-16 md:w-1/3 sm:w-full sm:border-0 md:border-e-2 md:border-e-zinc-700">
+        <section id="about" className="px-8  py-12 md:w-1/3 sm:w-full sm:border-0 md:border-e-2 md:border-e-zinc-700">
             <h2 className="text-center text-3xl font-bold mb-4">My Latest Blogs</h2>
             {posts ?
                 posts.map((post, index) => {
