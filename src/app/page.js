@@ -3,7 +3,7 @@ import About from './components/About'
 
 export default function Home() {
   return (
-    <main className='flex'>
+    <main className='flex flex-wrap'>
       <About />
     </main>
   )

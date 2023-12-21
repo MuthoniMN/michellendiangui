@@ -7,13 +7,13 @@ import profileImage from "../assets/Michelle-Ndiangui.jpg"
 
 export default function About() {
     return (
-        <section id="about" className="px-8  py-16 w-1/3 border-e-2 border-e-zinc-700">
+        <section id="about" className="px-8  py-16 md:w-1/3 sm:w-full sm:border-0 md:border-e-2 md:border-e-zinc-700">
             <section className="flex gap-8 items-center mb-8 border-b-2 border-b-zinc-700 pb-4">
                 <Image
                     src={profileImage}
                     alt="Michelle Ndiangui"
-                    width={150}
-                    height={150}
+                    width={100}
+                    height={100}
                     className="rounded-full"
                 />
                 <section>
