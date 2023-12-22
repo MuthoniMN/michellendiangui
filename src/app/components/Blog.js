@@ -54,7 +54,7 @@ export default function Blogs() {
                         return (
                             <div className="border-2 border-zinc-700 p-8 my-8 relative" key={post._id}>
                                 <h3 className="font-bold mb-2">{post.title}</h3>
-                                <span className="block me-0 text-right italic">{date}</span>
+                                <span className="block me-0 text-right italic my-2">{date}</span>
                                 <p>{post.brief.slice(0, 72) + "..."}</p>
                                 <a href={link} className="text-fuchsia-600 bg-fuchsia-100 hover:text-fuchsia-900 transition-all absolute -right-4 -top-6"><FontAwesomeIcon icon={faSquareArrowUpRight} className="w-12 h-12" /></a>
                             </div>
