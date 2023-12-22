@@ -26,6 +26,7 @@ export default function Blogs() {
             publication {
                 title
                 posts {
+                    _id
                     title
                     dateAdded
                     brief
@@ -51,7 +52,7 @@ export default function Blogs() {
                         const link = "https://mitchcodes.hashnode.dev/" + post.slug
                         const date = new Date(post.dateAdded).toDateString()
                         return (
-                            <div className="border-2 border-zinc-700 p-8 my-8 relative">
+                            <div className="border-2 border-zinc-700 p-8 my-8 relative" key={post._id}>
                                 <h3 className="font-bold mb-2">{post.title}</h3>
                                 <span className="block me-0 text-right italic">{date}</span>
                                 <p>{post.brief.slice(0, 72) + "..."}</p>
